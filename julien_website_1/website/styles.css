@@ -1,0 +1,116 @@
+.intro {
+    display: flex;
+    color: orange;
+    font-size:larger;
+    justify-content: center;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+.homenav {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.list {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border: 3px solid white;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 3.5%
+}
+
+a:link    {color:white;}
+a:visited {color:white;}
+a:hover   {color:skyblue;}
+a:active  {color:skyblue}
+
+
+.text1 {
+    display: flex;
+    justify-content: center;
+}
+
+.homeimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:  wrap;
+    padding: 0.5%;
+}
+
+
+.pagehead {
+    display: flex;
+    color: orange;
+    justify-content: center;
+}
+
+
+.catfacts {
+    display: grid;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    height: 430px;
+
+}
+.rectangle1 {
+    background-color: black;
+    padding: 2%;
+    color: white;
+}
+.rectangle2 {
+    background-color: rgb(255, 166, 0);
+    padding: 2%;
+}
+.rectangle3 {
+    background-color: black;
+    padding: 2%;
+    color: white;
+}
+.rectangle4 {
+    background-color: rgb(255, 166, 0);
+    padding: 2%;
+}
+.rectangle5 {
+    background-color: black;
+    padding: 2%;
+    color: white;
+}
+.rectangle6 {
+    background-color: rgb(255, 166, 0);
+    padding: 2%;
+}
+.rectangle7 {
+    background-color: black;
+    padding: 2%;
+    color: white;
+}
+.rectangle8 {
+    background-color: rgb(255, 166, 0);
+    padding: 2%;
+}
